@@ -1,0 +1,7 @@
+Le paradis du tireur v3
+
+Ce petit module qui ne m'a pris que quelques heures de travail est juste un amusement entre deux séances de vrai modding compliqué, fatigant et lassant. C'est un module de magasin qui vend au début de SOA tout ce qu'il faut pour les tireurs/lanceurs de tout poils.
+
+V1 : premier mise en ligne
+V2 : correction d'une faute de français dans le dialogue de Bifur (Merci CLB) et correction de la Ceinture à Projectiles (merci JohnBob)
+V3 : Plus de munitions dans le magasin (remarque de CLB)

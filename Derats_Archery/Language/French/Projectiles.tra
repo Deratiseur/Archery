@@ -1,0 +1,219 @@
+@10 = ~Flèches à Gobelin~
+@11 = ~Ces flèches sont moins connues pour les dégâts qu'elles infligent que pour les possibilités de convocation qu'elles offrent à leur utilisateur. Créées par un inventeur gnome au cœur noir, Turbar Talinbar, les flèches à gobelin se retrouvent généralement dans le carquois des elfes et petites-gens aimant semer le chaos et la confusion. Plusieurs compagnies d'aventuriers aiment s'en servir avant de se ruer au combat.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- en cas de coup au but, un gobelin apparaît à côté de la cible pendant 17 rounds
+
+TAC0 : +1
+Dégâts : 1D6 +1 (projectile)
+Arme à distance : arc
+
+Poids : 0~
+@12 = ~Flèches de Téléportation~
+@13 = ~Ces flèches très dangereuses sont peu nombreuses et il est rare que l'on en trouve plus d'une à la fois. Comme armes, elles sont pitoyables, mais c'est en tant qu'outils tactiques qu'elles prennent toute leur valeur. Elles sont souvent utilisées par les guerriers capables de se servir d'un arc. Une fois la flèche tirée, le combattant peut affronter au corps à corps une cible qui semblait hors d'atteinte.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- en cas de coup au but, le tireur est automatiquement téléporté à côté de la cible
+
+TAC0 : -3
+Dégâts : 1D3 (projectile)
+Arme à distance : arc
+
+Poids : 0~
+@14 = ~Flèches immobilisantes~
+@15 = ~Les flèches immobilisantes sont utilisées presque exclusivement par les rôdeurs d'Eldath, dans les contrées du Mitan occidental. Elles sont très prisées car elles permettent de soumettre une cible en lui infligeant très peu de dégâts. Elles sont généralement utilisées pour maîtriser des animaux déchaînés, mais elles sont aussi efficaces contre les humains. Elles sont généralement parées de rubans bleus et verts et de fleurs, indiquant qu'elles ont été créées par les gardiens de la paix de Eldath. Cela les rend cependant un peu moins efficaces durant les combats.
+
+PARAMETRES :
+
+TAC0 : -1
+Dégâts : 1D6 -1
+Type de dégâts : projectile (perforants)
+Spécial : cible frappée d'Enchevêtrement pendant quatre rounds
+Arme à distance : arc
+
+Poids : 0~
+@16 = ~Flèche chasseresse~
+@17 = ~Ces flèches disposent d'une tête spéciale s'enfonçant dans les chairs de la cible à mesure que celle-ci tente de l'enlever, ou simplement de se mouvoir. Cette particularité aggrave bien évidemment la blessure, rendant l'animal traqué bien plus facile à achever.
+
+PARAMÈTRES :
+
+TAC0 :+4
+Dégâts : 1D6
+Type de dégâts : Projectile (perforants)
+Spécial :
+   Hémorragie : inflige 2 points de dégâts supplémentaires par round pendant 10 rounds (jet de sauvegarde contre la mort pour annuler)
+   Sanglante: Inflige 2 points de dégâts supplémentaires par round pendant 10 rounds
+Type de dégâts : projectile
+Arme à distance : arc
+
+Poids : 0~
+@18 = ~Flèche chercheuse~
+@19 = ~Ces flèches sont d'une facture tout à fait exceptionnelle. Taillées par les meilleurs spécialistes en la matière, elles servaient à l'origine pour les compétitions d'archerie, où leur portée et leur incroyable précision faisaient merveille. Elles manquent toutefois du pouvoir de pénétration nécessaire pour percer les armures ou même les peaux de certaines créatures.
+
+PARAMETRES :
+
+Spécial : portée +50%
+
+TAC0 : +4
+Dégâts : 1D4
+Type de dégâts : projectile
+Arme à distance : arc
+
+Poids : 0~
+//%~
+@21 = ~Carreau de Silence~
+@22 = ~Les érudits reconnaissent aisément ces carreaux magiques en raison de leur fonction et de leur décoration. La célèbre Bande de la Clé rassemblait des guerriers-mages qui arrachaient les textes magiques des mains des magiciens malfaisants. Ils préféraient utiliser des arbalètes plutôt que des arcs, car il est possible de les armer à l'avance, ce qui permet de les utiliser plus rapidement. Le chef de la Bande, un moustachu plutôt maigre du nom d'Héglyf, avait demandé à des prêtres de Déneïr de lui préparer ces carreaux en grande quantité. L'empennage vert et jaune des projectiles est aisément reconnaissable.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- la cible est réduite au silence (jet de sauvegarde contre les sorts pour annuler)
+
+TAC0 : +1
+Dégâts : 1D8 +1 (projectiles)
+Arme à distance : arbalète
+
+Poids : 0~
+@23 = ~Carreau de flammes +1~
+@24 = ~Le carreau de flammes  est un carreau magique qui s'enflamme lorsqu'on le tire sur un ennemi. Il provoque les mêmes effets qu'un carreau trempé dans de l'huile puis enflammé.
+
+PARAMETRES :
+
+TAC0 : +1
+Dégâts : 1D8 +1 (projectiles), +1D6 dégâts de feu
+Arme à distance : arbalète
+
+Poids : 0~
+@25 = ~Carreaux de Givre +1~
+@26 = ~Le carreau de Givre a été enchanté pour se transformer en un pic de glace lorsqu’on le tire sur un ennemi. Lorsque le carreau frappe sa cible, celle-ci est traversée par une vague de froid qui la brûle et l’engourdit en même temps.
+
+PARAMETRES :
+
+TAC0 : +1
+Dégâts : 1D8 +1 (projectiles), +1D8 dégâts de froid
+Arme à distance : arbalète
+
+Poids : 0~
+@27 = ~Carreaux corrosifs +1~
+@28 = ~Ce carreau enduit d’acide transperce non seulement la chair de l’ennemi au moment de l’impact, mais augmente également la gravité de la blessure en rongeant les chairs autour.
+
+PARAMETRES :
+
+TAC0 : +1
+Dégâts : 1D8 +1 (projectiles), +1D8 dégâts d'acide
+Arme à distance : arbalète
+
+Poids : 0~
+@29 = ~Le Répétiteur~
+@210 = ~La beauté de cette arme finement ciselée est rehaussée par les minuscules runes de puissance qui sont gravées sur sa surface. Beaucoup de temps et d'efforts ont été consacrés à la confection de cette arme. Une faible lueur bleue semble émaner des runes qui la recouvrent.
+
+PARAMÈTRES :
+
+Dégâts : 1D8
+Type de dégâts : Projectile (perforants)
+Spécial :
+ De retour : revient se ficher dans l'arbalète du tireur
+ De rapidité : confère une attaque par round supplémentaire au tireur
+Arme à distance : arbalète
+
+Poids : 0~
+@31 = ~Billes de Force~
+@32 = ~Projectiles très appréciés des prêtres, les billes de force permettent d'immobiliser la cible sans lui faire de mal. Elles sont particulièrement utilisées par les clergés d'Eldath, Heaum et Ilmater.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- la cible est affectée par Sphère d'Otiluke pendant 7 rounds (jet de sauvegarde contre les sorts pour annuler)
+
+Dégâts : 1D4 +3
+Type de dégâts : projectiles
+Arme à distance : fronde
+
+Poids : 0~
+@33 = ~Bille de Feu Étincelant +1~
+@34 = ~Lorsque vous la tenez dans la main, cette bille semble déborder d’énergie. Lorsque vous la lancez depuis une fronde, vous avez l’impression qu’elle se dirige vers sa cible en laissant derrière elle une odeur de soufre. Lorsqu’elle touche sa cible, un grésillement se fait entendre alors que l’énergie qu’elle contient se répand dans la blessure de la cible.
+
+PARAMETRES :
+
+TAC0 : +1
+Dégâts : 1D4 +1, +1D4 dégâts d'électricité, +1D4 dégâts de feu
+Type de dégâts : projectile (contondant)
+Arme à distance : fronde
+
+Poids : 0~
+@41 = ~Fléchettes barbelées~
+@42 = ~Cette fléchette dispose de nombreuses dentelures acérées destinées à aggraver les blessures.
+
+PARAMÈTRES :
+
+Dégâts : 4D3
+Type de dégâts : Projectile (Perforants)
+Facteur de vitesse : 2
+Type de compétence : fléchette
+Type : arme à une main
+
+Poids : 0~
+@43 = ~Fléchettes Merveilleuses de Zilzander~
+@44 = ~Le maître magicien Zilzander, connu pour son excentricité et son anneau de la gorgone, est également le créateur de projectiles magiques de petite taille. Ses "fléchettes merveilleuses" furent vendues à nombre de ses collègues. Contrairement aux autres inventions de Zilzander, ses fléchettes fonctionnaient bien comme elles le devaient. Il en créa un nombre important de son vivant.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- quelle que soit sa classe, l'utilisateur peut lancer jusqu'à 5 fléchettes de Zilzander par round
+
+Dégâts : 1D3+2 (projectile)
+Facteur de vitesse : 1
+Type de compétence : fléchette
+Type : arme à une main
+
+Poids : 0~
+@45 = ~Fléchettes casse-noisette~
+@46 = ~Ces fléchettes à tête en fourche ont une seule et unique raison d'être : l'émasculation de la cible. Quand on les lance, elles se dirigent automatiquement vers la partie la plus sensible de la cible. Au moment de l'impact, les deux parties de la tête s'écartent brusquement, ce qui empêche de ressortir la fléchette, tout en  augmentant considérablement les dégâts. Le nom de ces projectiles provient d'une tentative d'humour d'un goût douteux.
+
+TAC0 : +4
+Dégâts : 1D3, +2D4 dégâts tranchants
+Type de dégâts : Projectile (perforants)
+Spécial :
++3 aux chances de coup critique
+Type de compétence : fléchette
+Type : arme à une main
+
+Poids : 0~
+@47 = ~Fléchette éternelle~
+@48 = ~La beauté de cette arme finement ciselée est rehaussée par les minuscules runes de puissance qui sont gravées sur sa surface. Beaucoup de temps et d'efforts ont été consacrés à la confection de cette arme. Une faible lueur bleue semble émaner des runes qui la recouvrent.
+
+Dégâts : 1D4 +2
+Bonus d'attaque : +2
+Type de dégâts : projectile (perforant)
+Spécial :
+ De retour : revient se ficher dans la main du lanceur
+Poids : 0
+Compétence : arme courante, projectile
+Type d'arme : à une main~
+@61 = ~Hache lestée~
+@62 = ~Il paraît évident que Dullcobble Tweed fut le pire charpentier de tous les temps et il était encore plus déplorable quand il s'essayait au métier de forgeron. Mais il se vantait tant que ses concitoyens finirent par le défier de forger une hache de lancer digne de lui. Comprenant qu'il n'avait pas le choix, il accepta sans hésiter... tout en ressentant une intense terreur à l'idée de ne pas pouvoir mener cette tâche à bien.
+
+Il essaya à plusieurs reprises de fabriquer une hache tranchante, toutes ses tentatives finissant au feu. La veille du jour où il était censé livrer son arme, il n'avait réussi qu'à forger une petite hache à la lame tordue et dont le manche était très mal équilibré. Sachant qu'il ne pouvait présenter cette arme sous peine de devenir la risée de sa communauté, il loua les services d'un mage pour transformer sa hache en arme utilisable. Le mage, qui était entropiste, accepta l'argent avec un haussement d'épaules et promit à Dullcobble de lui livrer une hache pour le lendemain à l'aube. Lorsque l'artisan se réveilla, l'arme l'attendait sur le pas de sa porte, toujours aussi difforme. Il n'eut d'autre choix que de la présenter à son jury.
+
+Quand il entra dans la salle commune de la ville, sa hache fut accueillie par des quolibets. Rouge de honte et de colère, Dullcobble la lança vers ses détracteurs. La hache heurta une colonne... qu'elle brisa en deux, provoquant l'effondrement du toit. Frappé de stupeur, Dullcobble fut assommé par la chute d'une poutre, tandis que les autres personnes présentes sortaient dans le plus grand désordre, mais sans une égratignure.
+
+Le coup reçu par Dullcobble fut si sérieux qu'il devint par la suite l'idiot du village... ce qui ne changeait pas beaucoup d'avant. Quant à la hache, elle finit dans le chariot d'un marchand en partance vers le Nord, et personne ne la revit plus jamais dans la région. On ignore quel est l'effet des enchantements ajoutés par l'entropiste à la hache, mais ce qui est sûr, c'est qu'elle tourne en vol et que c'est son manche, et non sa lame, qui s'en va frapper la cible en lui infligeant des dégâts contondants plutôt que tranchants.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- revient dans la main du lanceur
+
+TAC0 : +1
+Dégâts : 1D6 +1
+Type de dégâts (mêlée) : tranchant
+Type de dégâts (lancer) : contondant
+Facteur de vitesse : 3
+Type de compétence : hache
+Type : arme à une main
+
+Poids : 3~
