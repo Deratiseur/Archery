@@ -12,4 +12,4 @@
 
 Un marchand qui vend tout ce qu'il faut pour les tireurs/lanceurs
 
-No English translation yet, but more to come.
+A merchant who sells everything you need for shooters/throwers. There's no real English translation, but it's coming soon.
