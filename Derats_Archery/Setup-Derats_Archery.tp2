@@ -1,6 +1,6 @@
 BACKUP ~Derats_Archery/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v2~
+VERSION ~v4~
 
 ALWAYS
 	ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
