@@ -1,53 +1,55 @@
-@10 = ~Flèches à Gobelin~
+@10 = ~Flèche à Gobelin +1~
 @11 = ~Ces flèches sont moins connues pour les dégâts qu'elles infligent que pour les possibilités de convocation qu'elles offrent à leur utilisateur. Créées par un inventeur gnome au cœur noir, Turbar Talinbar, les flèches à gobelin se retrouvent généralement dans le carquois des elfes et petites-gens aimant semer le chaos et la confusion. Plusieurs compagnies d'aventuriers aiment s'en servir avant de se ruer au combat.
 
 PARAMÈTRES :
 
 Capacités de combat :
-- en cas de coup au but, un gobelin apparaît à côté de la cible pendant 17 rounds
+- un gobelin apparaît à côté de la cible pendant 17 rounds
 
 TAC0 : +1
 Dégâts : 1D6 +1 (projectile)
 Arme à distance : arc
 
 Poids : 0~
-@12 = ~Flèches de Téléportation~
+@12 = ~Flèche de Téléportation~
 @13 = ~Ces flèches très dangereuses sont peu nombreuses et il est rare que l'on en trouve plus d'une à la fois. Comme armes, elles sont pitoyables, mais c'est en tant qu'outils tactiques qu'elles prennent toute leur valeur. Elles sont souvent utilisées par les guerriers capables de se servir d'un arc. Une fois la flèche tirée, le combattant peut affronter au corps à corps une cible qui semblait hors d'atteinte.
 
 PARAMÈTRES :
 
 Capacités de combat :
-- en cas de coup au but, le tireur est automatiquement téléporté à côté de la cible
+- le tireur est automatiquement téléporté à côté de la cible
 
 TAC0 : -3
 Dégâts : 1D3 (projectile)
 Arme à distance : arc
 
 Poids : 0~
-@14 = ~Flèches immobilisantes~
+@14 = ~Flèche immobilisante~
 @15 = ~Les flèches immobilisantes sont utilisées presque exclusivement par les rôdeurs d'Eldath, dans les contrées du Mitan occidental. Elles sont très prisées car elles permettent de soumettre une cible en lui infligeant très peu de dégâts. Elles sont généralement utilisées pour maîtriser des animaux déchaînés, mais elles sont aussi efficaces contre les humains. Elles sont généralement parées de rubans bleus et verts et de fleurs, indiquant qu'elles ont été créées par les gardiens de la paix de Eldath. Cela les rend cependant un peu moins efficaces durant les combats.
 
 PARAMETRES :
 
+Capacités de combat :
+- la cible est frappée d'Enchevêtrement pendant quatre rounds
+
 TAC0 : -1
 Dégâts : 1D6 -1
 Type de dégâts : projectile (perforants)
-Spécial : cible frappée d'Enchevêtrement pendant quatre rounds
 Arme à distance : arc
 
 Poids : 0~
 @16 = ~Flèche chasseresse~
-@17 = ~Ces flèches disposent d'une tête spéciale s'enfonçant dans les chairs de la cible à mesure que celle-ci tente de l'enlever, ou simplement de se mouvoir. Cette particularité aggrave bien évidemment la blessure, rendant l'animal traqué bien plus facile à achever.
+@17 = ~Ces flèches disposent d'une tête spéciale s'enfonçant dans les chairs de la cible à mesure que celle-ci tente de l'enlever, ou simplement de se mouvoir. Cette particularité aggrave bien évidemment la blessure, rendant la cible bien plus facile à achever.
 
 PARAMÈTRES :
+
+Spécial :
+   Hémorragie : inflige 2 points de dégâts supplémentaires par round pendant 10 rounds (jet de sauvegarde contre la mort pour annuler)
+   Sanglante: Inflige 2 points de dégâts supplémentaires par round pendant 10 rounds
 
 TAC0 :+4
 Dégâts : 1D6
 Type de dégâts : Projectile (perforants)
-Spécial :
-   Hémorragie : inflige 2 points de dégâts supplémentaires par round pendant 10 rounds (jet de sauvegarde contre la mort pour annuler)
-   Sanglante: Inflige 2 points de dégâts supplémentaires par round pendant 10 rounds
-Type de dégâts : projectile
 Arme à distance : arc
 
 Poids : 0~
@@ -64,8 +66,17 @@ Type de dégâts : projectile
 Arme à distance : arc
 
 Poids : 0~
-//%~
-@21 = ~Carreau de Silence~
+@110 = ~Flèches ravageuse~
+@111= ~Ces flèches ont été inventées par un génie de la mécanique particulièrement retors. Sous leur pointe se trouve un petit mécanisme qui la libère et lui permet de se scinder. D'après ce que tu en vois, chaque pointe donne naissance à trois projectiles triangulaires au moment de l'impact. Chacun d'eux pénètre dans les chairs de la cible en suivant une trajectoire différente, ce qui permet d'atteindre plusieurs organes d'un seul coup.
+
+PARAMETRES :
+Dégâts : 1D6, +3D4 dégâts tranchants
+Type de dégâts : Projectile (perforants)
+Arme à distance : arc
+
+Poids : 0~
+//%
+@21 = ~Carreau de Silence +1~
 @22 = ~Les érudits reconnaissent aisément ces carreaux magiques en raison de leur fonction et de leur décoration. La célèbre Bande de la Clé rassemblait des guerriers-mages qui arrachaient les textes magiques des mains des magiciens malfaisants. Ils préféraient utiliser des arbalètes plutôt que des arcs, car il est possible de les armer à l'avance, ce qui permet de les utiliser plus rapidement. Le chef de la Bande, un moustachu plutôt maigre du nom d'Héglyf, avait demandé à des prêtres de Déneïr de lui préparer ces carreaux en grande quantité. L'empennage vert et jaune des projectiles est aisément reconnaissable.
 
 PARAMÈTRES :
@@ -88,7 +99,7 @@ Dégâts : 1D8 +1 (projectiles), +1D6 dégâts de feu
 Arme à distance : arbalète
 
 Poids : 0~
-@25 = ~Carreaux de Givre +1~
+@25 = ~Carreau de givre +1~
 @26 = ~Le carreau de Givre a été enchanté pour se transformer en un pic de glace lorsqu’on le tire sur un ennemi. Lorsque le carreau frappe sa cible, celle-ci est traversée par une vague de froid qui la brûle et l’engourdit en même temps.
 
 PARAMETRES :
@@ -98,7 +109,7 @@ Dégâts : 1D8 +1 (projectiles), +1D8 dégâts de froid
 Arme à distance : arbalète
 
 Poids : 0~
-@27 = ~Carreaux corrosifs +1~
+@27 = ~Carreau corrosif +1~
 @28 = ~Ce carreau enduit d’acide transperce non seulement la chair de l’ennemi au moment de l’impact, mais augmente également la gravité de la blessure en rongeant les chairs autour.
 
 PARAMETRES :
@@ -121,7 +132,33 @@ Spécial :
 Arme à distance : arbalète
 
 Poids : 0~
-@31 = ~Billes de Force~
+@211 = ~Carreau étourdissant +1~
+@212 = ~Ces carreaux enchantés ont été fabriqués à partir de l'un des grands cubes de l'Achéron. S'il faut en croire les spécialistes, l'Achéron serait un plan en guerre permanente contre lui-même, occupé par des cubes gros comme des continents qui flottent dans l'éther et se heurtent en permanence. A la surface de ces blocs, des armées attaquent tout ce qui bouge, passant d'un cube à l'autre quand elles viennent à manquer d'adversaires. L'Achéron résonne continuellement du bruit des épées et des cubes qui s'entrechoquent.
+
+Ces carreaux ont en eux une partie de l'énergie de l'Achéron. Lorsqu'ils touchent leur cible, ils le font avec une telle violence que l'impact a de fortes chances d'étourdir la victime et de l'empêcher temporairement de faire quoi que ce soit.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- la cible est étourdie (jet de sauvegarde contre les sorts pour annuler)
+
+TAC0 : +1
+Dégâts : 1D8 +1 (projectiles)
+Arme à distance : arbalète~
+@213 = ~Carreau de folie furieuse +1~
+@214 = ~Ces carreaux d'arbalète portent en eux les terribles harmonies sonores du Pandémonium. Comme si cela ne suffisait pas, un élémental d'air enragé est enfermé dans leur pointe. Au moment de l'impact, cette dernière explose et l'élemental est libéré.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- la cible subie la Confusion (jet de sauvegarde contre les sorts pour annuler)
+- libère un élémentaire d'air de 4 dvs qui attaque tout ce qui bouge.
+
+TAC0 : +1
+Dégâts : 1D8 +1 (projectiles)
+Arme à distance : arbalète~
+
+@31 = ~Bille de Force +2~
 @32 = ~Projectiles très appréciés des prêtres, les billes de force permettent d'immobiliser la cible sans lui faire de mal. Elles sont particulièrement utilisées par les clergés d'Eldath, Heaum et Ilmater.
 
 PARAMÈTRES :
@@ -145,7 +182,7 @@ Type de dégâts : projectile (contondant)
 Arme à distance : fronde
 
 Poids : 0~
-@41 = ~Fléchettes barbelées~
+@41 = ~Fléchette barbelée~
 @42 = ~Cette fléchette dispose de nombreuses dentelures acérées destinées à aggraver les blessures.
 
 PARAMÈTRES :
@@ -157,7 +194,7 @@ Type de compétence : fléchette
 Type : arme à une main
 
 Poids : 0~
-@43 = ~Fléchettes Merveilleuses de Zilzander~
+@43 = ~Fléchette Merveilleuse de Zilzander +1~
 @44 = ~Le maître magicien Zilzander, connu pour son excentricité et son anneau de la gorgone, est également le créateur de projectiles magiques de petite taille. Ses "fléchettes merveilleuses" furent vendues à nombre de ses collègues. Contrairement aux autres inventions de Zilzander, ses fléchettes fonctionnaient bien comme elles le devaient. Il en créa un nombre important de son vivant.
 
 PARAMÈTRES :
@@ -171,14 +208,15 @@ Type de compétence : fléchette
 Type : arme à une main
 
 Poids : 0~
-@45 = ~Fléchettes casse-noisette~
+@45 = ~Fléchette casse-noisette~
 @46 = ~Ces fléchettes à tête en fourche ont une seule et unique raison d'être : l'émasculation de la cible. Quand on les lance, elles se dirigent automatiquement vers la partie la plus sensible de la cible. Au moment de l'impact, les deux parties de la tête s'écartent brusquement, ce qui empêche de ressortir la fléchette, tout en  augmentant considérablement les dégâts. Le nom de ces projectiles provient d'une tentative d'humour d'un goût douteux.
+
+Spécial :
++3 aux chances de coup critique
 
 TAC0 : +4
 Dégâts : 1D3, +2D4 dégâts tranchants
 Type de dégâts : Projectile (perforants)
-Spécial :
-+3 aux chances de coup critique
 Type de compétence : fléchette
 Type : arme à une main
 
@@ -186,14 +224,17 @@ Poids : 0~
 @47 = ~Fléchette éternelle~
 @48 = ~La beauté de cette arme finement ciselée est rehaussée par les minuscules runes de puissance qui sont gravées sur sa surface. Beaucoup de temps et d'efforts ont été consacrés à la confection de cette arme. Une faible lueur bleue semble émaner des runes qui la recouvrent.
 
-Dégâts : 1D4 +2
-Bonus d'attaque : +2
-Type de dégâts : projectile (perforant)
 Spécial :
  De retour : revient se ficher dans la main du lanceur
-Poids : 0
+
+TAC0 : +2
+Dégâts : 1D4 +2
+Type de dégâts : projectile (perforant)
 Compétence : arme courante, projectile
-Type d'arme : à une main~
+Type d'arme : à une main
+
+Poids : 0~
+
 @61 = ~Hache lestée~
 @62 = ~Il paraît évident que Dullcobble Tweed fut le pire charpentier de tous les temps et il était encore plus déplorable quand il s'essayait au métier de forgeron. Mais il se vantait tant que ses concitoyens finirent par le défier de forger une hache de lancer digne de lui. Comprenant qu'il n'avait pas le choix, il accepta sans hésiter... tout en ressentant une intense terreur à l'idée de ne pas pouvoir mener cette tâche à bien.
 
