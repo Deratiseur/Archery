@@ -1,6 +1,6 @@
 BACKUP ~Derats_Archery/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v4~
+VERSION ~v5~
 
 ALWAYS
 	ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
@@ -34,6 +34,7 @@ LANGUAGE ~English~	~English~
 BEGIN @0
 REQUIRE_PREDICATE GAME_IS ~BGT TOB BG2EE EET~ @0009
 COMPILE ~Derats_Archery/Misc/Bifurr.d~
+INCLUDE ~Derats_Archery/Misc/gw_functions.tpa~
 EXTEND_TOP ~AR0700.BCS~	~Derats_Archery/Misc/pxs0700.baf~
 COPY	~Derats_Archery/Bams~					~override~
 COPY	~Derats_Archery/Misc/pxsarche.sto~		~override~	SAY 0xc @1
@@ -54,15 +55,15 @@ COPY	~Derats_Archery/Items/pxsdbarb.itm~		~override~	SAY NAME2 @41	SAY DESC @42
 COPY	~Derats_Archery/Items/pxsdcass.itm~		~override~	SAY NAME2 @45	SAY DESC @46
 COPY	~Derats_Archery/Items/pxsdeter.itm~		~override~	SAY NAME2 @47	SAY DESC @48
 COPY	~Derats_Archery/Items/pxshlest.itm~		~override~	SAY NAME2 @61	SAY DESC @62
-COPY_EXISTING	~bow05.itm~			~override/pxsacom1.itm~	SAY NAME2 @3	SAY DESC @4	WRITE_BYTE 0x26 12
-WRITE_BYTE 0x34 75	WRITE_ASCII 0x3a ~pxsacom1~ #8	WRITE_ASCII 0x76 ~pxsacom1~	WRITE_BYTE 0x8c 1
-COPY_EXISTING	~bow06.itm~			~override/pxsacom2.itm~	SAY NAME2 @5	SAY DESC @6	WRITE_BYTE 0x26 12
-WRITE_LONG 0x34 750	WRITE_ASCII 0x3a ~pxsacom2~ #8	WRITE_ASCII 0x76 ~pxsacom2~	WRITE_BYTE 0x8c 2
 COPY	~Derats_Archery/Items/GARROW.itm~		~override~	SAY NAME2 @10	SAY DESC @11
 COPY	~Derats_Archery/Items/AROWTRN.itm~		~override~	SAY NAME2 @12	SAY DESC @13
 COPY	~Derats_Archery/Items/HOLDFST.itm~		~override~	SAY NAME2 @14	SAY DESC @15
 COPY	~Derats_Archery/Items/TRNBOLT.itm~		~override~	SAY NAME2 @21	SAY DESC @22
 COPY	~Derats_Archery/Items/FORCE.itm~		~override~	SAY NAME2 @31	SAY DESC @32
 COPY	~Derats_Archery/Items/DARTZIL.itm~		~override~	SAY NAME2 @43	SAY DESC @44
+COPY	~Derats_Archery/Items/rr#bow02.itm~		~override~	SAY NAME2 @150	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@151" END
+COPY	~Derats_Archery/Items/rr#bow03.itm~		~override~	SAY NAME2 @152	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@153" END
+COPY	~Derats_Archery/Items/rr#bow04.itm~		~override~	SAY NAME2 @154	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@155" END
+COPY	~Derats_Archery/Items/rr#bow05.itm~		~override~	SAY NAME2 @156	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@157" END
 COPY_EXISTING	~bag05.itm~			~override/pxsceint.itm~
 COPY_EXISTING	~bag05.sto~			~override/pxsceint.sto~
