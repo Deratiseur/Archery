@@ -15,4 +15,3 @@ Update v5 : Il manquait les dlls dans le dossier iconv de l'archive sur mediafir
 			Ajout des arcs courts composites disponibles dans Rogues rebalancing. 
 			Ajout des frondes normales qui manquaient.
 			Ajout de l'arc court +3 qui manquait.
-			Mod testé sur oBG2. Sur BG2EE les icônes étaient excentrées.
