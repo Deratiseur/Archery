@@ -1,43 +1,72 @@
 @0 = ~Shop for all kinds of projectiles~
 @1 = ~Shooter's paradise~
 @2 = ~Bifurr~
-@3 = ~Composite shortbow~
-@4 = ~Composite bows are made from laminated horn, wood or bone. They permanently retain their original curved shape, even when unstrung.
+@150 = ~Composite Short Bow~
+@151 = ~Composite bows are long bows or short bows whose staves are made from more than one type of material.  This gives greater flexibility and makes arrows fired from this bow deliver more damage. This bow can only be wielded by characters with a strength score of 16 or higher.
 
 STATISTICS:
 
-Damage: +1 (projectile)
+Damage:  +1 bonus
+Weight: 2
 Speed Factor: 6
-Proficiency Type: Shortbow
-Type: Two-handed
-Requires:
- 12 Strength
-
-Weight: 2
-Unusable by :
- Druid
- Cleric
- Mage~ 
- @5 = ~Composite shortbow +1~
- @6 = ~Composite bows are made from laminated horn, wood or bone. They permanently retain their original curved shape, even when unstrung.
-
-STATISTICS:
-
-THAC0: +1
-Damage: +2 (projectile)
-Speed Factor: 5
-Proficiency Type: Shortbow
-Type: Two-handed
-Requires:
- 12 Strength
-
-Weight: 2
-Unusable by :
+Proficiency Type: Short Bow
+Type:  2-handed
+Requires: 16 Strength
+Not Usable By:
  Druid
  Cleric
  Mage~
 
+@152 = ~Composite Short Bow +1~
+@153 = ~Composite bows are long bows or short bows whose staves are made from more than one type of material.  This gives greater flexibility and makes arrows fired from this bow deliver more damage. This magical bow can only be wielded by characters with a strength score of 16 or higher.
 
+STATISTICS:
+
+THAC0: +1 bonus
+Damage:  +2 bonus
+Weight: 2
+Speed Factor: 5
+Proficiency Type: Short Bow
+Type:  2-handed
+Requires: 16 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+
+@154 = ~Composite Short Bow +2~
+@155 = ~Composite bows are long bows or short bows whose staves are made from more than one type of material.  This gives greater flexibility and makes arrows fired from this bow deliver more damage. This magical bow can only be wielded by characters with a strength score of 16 or higher.
+
+STATISTICS:
+
+THAC0: +2 bonus
+Damage:  +3 bonus
+Weight: 2
+Speed Factor: 4
+Proficiency Type: Short Bow
+Type:  2-handed
+Requires: 16 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+
+@156 = ~Composite Short Bow +3~
+@157 = ~Composite bows are long bows or short bows whose staves are made from more than one type of material.  This gives greater flexibility and makes arrows fired from this bow deliver more damage. This magical bow can only be wielded by characters with a strength score of 16 or higher.
+
+STATISTICS:
+
+THAC0: +3 bonus
+Damage:  +4 bonus
+Weight: 2
+Speed Factor: 3
+Proficiency Type: Short Bow
+Type:  2-handed
+Requires: 16 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 
 
 
