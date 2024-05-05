@@ -14,4 +14,6 @@
 
 Un marchand sur la promenade de Waukyne qui vend tout ce qu'il faut pour les tireurs/lanceurs
 
+------------
+
 A merchant on the Waukyne promenade who sells everything you need for shooters/throwers.
