@@ -1,4 +1,4 @@
-# Au bonheur du tireur
+# Au bonheur du tireur / The shooter's delight
 
 ![Language](https://img.shields.io/static/v1?label=language&message=french%20%7Cenglish%20%7C%20&color=informational)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macOS%20%7C%20&color=informational)
