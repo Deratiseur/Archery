@@ -1,6 +1,6 @@
 BACKUP ~Derats_Archery/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v5~
+VERSION ~v6~
 
 ALWAYS
 	ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
@@ -42,6 +42,7 @@ COPY	~Derats_Archery/Misc/pxsbifur.cre~		~override~	SAY 0xc @2
 COPY	~Derats_Archery/Items/pxsfchas.itm~		~override~	SAY NAME2 @16	SAY DESC @17
 COPY	~Derats_Archery/Items/pxsfcher.itm~		~override~	SAY NAME2 @18	SAY DESC @19
 COPY	~Derats_Archery/Items/pxsfrava.itm~		~override~	SAY NAME2 @110	SAY DESC @111
+COPY	~Derats_Archery/Items/pxsftueu.itm~		~override~	SAY NAME2 @112	SAY DESC @113
 COPY	~Derats_Archery/Items/pxscfeu.itm~		~override~	SAY NAME2 @23	SAY DESC @24
 COPY_EXISTING	~pxscfeu.itm~		~override/pxscfroi.itm~	SAY NAME2 @25	SAY DESC @26	WRITE_BYTE 0xca 8
 WRITE_ASCII 0x3a ~pxscfroi~ #8	WRITE_ASCII 0x76 ~pxscfroi~ #8	WRITE_BYTE 0xb4 2	WRITE_BYTE 0x34 40
@@ -50,6 +51,7 @@ WRITE_ASCII 0x3a ~pxscacid~ #8	WRITE_ASCII 0x76 ~pxscacid~ #8	WRITE_BYTE 0xb4 1
 COPY	~Derats_Archery/Items/pxscrepe.itm~		~override~	SAY NAME2 @29	SAY DESC @210
 COPY	~Derats_Archery/Items/pxscstun.itm~		~override~	SAY NAME2 @211	SAY DESC @212
 COPY	~Derats_Archery/Items/pxscfoli.itm~		~override~	SAY NAME2 @213	SAY DESC @214
+COPY	~Derats_Archery/Items/pxscbeni.itm~		~override~	SAY NAME2 @215	SAY DESC @216
 COPY	~Derats_Archery/Items/pxsbetin.itm~		~override~	SAY NAME2 @33	SAY DESC @34
 COPY	~Derats_Archery/Items/pxsdbarb.itm~		~override~	SAY NAME2 @41	SAY DESC @42
 COPY	~Derats_Archery/Items/pxsdcass.itm~		~override~	SAY NAME2 @45	SAY DESC @46
@@ -67,3 +69,10 @@ COPY	~Derats_Archery/Items/rr#bow04.itm~		~override~	SAY NAME2 @154	LPF ~GW_WRIT
 COPY	~Derats_Archery/Items/rr#bow05.itm~		~override~	SAY NAME2 @156	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@157" END
 COPY_EXISTING	~bag05.itm~			~override/pxsceint.itm~
 COPY_EXISTING	~bag05.sto~			~override/pxsceint.sto~
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
+COPY_EXISTING	~pxsarche.sto~					~override~
+ADD_STORE_ITEM ~OHDART50~  AFTER ~DART02~ #40 #0 #0 ~IDENTIFIED~ #7
+ADD_STORE_ITEM ~OHDART51~  AFTER ~OHDART50~ #40 #0 #0 ~IDENTIFIED~ #4
+ADD_STORE_ITEM ~OHBOLT50~  AFTER ~BOLT09~ #40 #0 #0 ~IDENTIFIED~ #4
+ADD_STORE_ITEM ~OHAROW50~  AFTER ~AROW15~ #40 #0 #0 ~IDENTIFIED~ #4
+END

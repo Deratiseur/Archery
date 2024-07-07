@@ -1,6 +1,6 @@
-Le paradis du tireur v5
+Au bonheur du tireur v5
 
-Ce petit module qui ne m'a pris que quelques heures de travail est juste un amusement entre deux séances de vrai modding compliqué, fatigant et lassant. C'est un module de magasin qui vend au début de SOA tout ce qu'il faut pour les tireurs/lanceurs de tout poils.
+C'est un marin sur la promenade de Waukyne qui vend tout ce qu'il faut pour les tireurs/lanceurs de tout poils.
 
 Upadte v2 : correction de la ceinture de munition buguée et des projectiles venus de IWD
 
@@ -12,6 +12,20 @@ Update v4 : Les carreaux élémentaires n’étaient pas +1 comme décris. Le carreau 
 			
 Update v5 : Il manquait les dlls dans le dossier iconv de l'archive sur mediafire.
 			Les flèches ravageuses n'avaient pas d’icône dans le magasin.
-			Ajout des arcs courts composites disponibles dans Rogues rebalancing. 
+			Ajout des arcs courts composites disponibles dans Rogues Rebalancing. 
 			Ajout des frondes normales qui manquaient.
 			Ajout de l'arc court +3 qui manquait.
+
+Update v6 :
+			Les carreaux bénis ne pouvaient pas toucher les rakshasas (enchantement +1). Ceux vendus par Biffur deviennent +3 et valent plus cher.
+			La traduction anglaise n'incluait pas les lignes pour utiliser la fonction de FreddyGwendo.
+			La flèche ravageuse avait presque tout d'un carreau, y compris l’utilisation dans une arbalète.
+			Correction du texte de la Flèches ravageuse.
+			Simplification du texte des Carreau étourdissant +1
+			Ajout du texte "Poid 0" qui manquait dans la description de certains carreaux.
+			La Flèche de téléportation avait la même icône que la Flèche explosive.
+			Réécriture de la Flèche tueuse (il n'y a pas d'Ogres mages dans BG2). Elle devient +3 selon les règles p&p.
+			Correction du prix de la Fléchette éternelle.
+			Réduction du prix des Fléchettes Merveilleuse de Zilzander.
+			Ajout des fléchettes Nid d'Aspic et flèches +3 qui manquaient.
+			Ajout de quelques projectiles +2/+3/+4 dans BG2EE (tirée des Fosses noires II).

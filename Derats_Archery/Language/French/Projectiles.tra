@@ -67,7 +67,7 @@ Arme à distance : arc
 
 Poids : 0~
 @110 = ~Flèches ravageuse~
-@111= ~Ces flèches ont été inventées par un génie de la mécanique particulièrement retors. Sous leur pointe se trouve un petit mécanisme qui la libère et lui permet de se scinder. D'après ce que tu en vois, chaque pointe donne naissance à trois projectiles triangulaires au moment de l'impact. Chacun d'eux pénètre dans les chairs de la cible en suivant une trajectoire différente, ce qui permet d'atteindre plusieurs organes d'un seul coup.
+@111= ~Ces flèches ont été inventées par un génie de la mécanique particulièrement retors. Sous leur pointe se trouve un petit mécanisme qui l'ouvre et lui permet de se scinder, chaque pointe donnant naissance à trois projectiles triangulaires au moment de l'impact. Chacun d'eux pénètre dans les chairs de la cible en suivant une trajectoire différente, ce qui permet d'atteindre plusieurs organes d'un seul coup.
 
 PARAMETRES :
 Dégâts : 1D6, +3D4 dégâts tranchants
@@ -133,9 +133,7 @@ Arme à distance : arbalète
 
 Poids : 0~
 @211 = ~Carreau étourdissant +1~
-@212 = ~Ces carreaux enchantés ont été fabriqués à partir de l'un des grands cubes de l'Achéron. S'il faut en croire les spécialistes, l'Achéron serait un plan en guerre permanente contre lui-même, occupé par des cubes gros comme des continents qui flottent dans l'éther et se heurtent en permanence. A la surface de ces blocs, des armées attaquent tout ce qui bouge, passant d'un cube à l'autre quand elles viennent à manquer d'adversaires. L'Achéron résonne continuellement du bruit des épées et des cubes qui s'entrechoquent.
-
-Ces carreaux ont en eux une partie de l'énergie de l'Achéron. Lorsqu'ils touchent leur cible, ils le font avec une telle violence que l'impact a de fortes chances d'étourdir la victime et de l'empêcher temporairement de faire quoi que ce soit.
+@212 = ~Ces carreaux ont en eux une partie de l'énergie de l'Achéron. Lorsqu'ils touchent leur cible, ils le font avec une telle violence que l'impact a de fortes chances d'étourdir la victime et de l'empêcher temporairement de faire quoi que ce soit.
 
 PARAMÈTRES :
 
@@ -144,7 +142,9 @@ Capacités de combat :
 
 TAC0 : +1
 Dégâts : 1D8 +1 (projectiles)
-Arme à distance : arbalète~
+Arme à distance : arbalète
+
+Poids : 0~
 @213 = ~Carreau de folie furieuse +1~
 @214 = ~Ces carreaux d'arbalète portent en eux les terribles harmonies sonores du Pandémonium. Comme si cela ne suffisait pas, un élémental d'air enragé est enfermé dans leur pointe. Au moment de l'impact, cette dernière explose et l'élemental est libéré.
 
@@ -156,7 +156,22 @@ Capacités de combat :
 
 TAC0 : +1
 Dégâts : 1D8 +1 (projectiles)
-Arme à distance : arbalète~
+Arme à distance : arbalète
+
+
+Poids : 0~
+@215 = ~Carreau béni +3~
+@216 = ~C'est un carreau d'arbalète enchanté d'une 'Bénédiction' permanente. L'enchantement restera jusqu'à ce qu'on tire le carreau avec une arbalète, après quoi il sera brisé. On dit qu'un Raksasha touché par un tel carreau meurt instantanément.
+
+PARAMETRES :
+
+Dégâts :  1D8 +3
+TAC0 :  +3
+Type de Dégâts :  projectile (perçant)
+Poids :  0
+Arme de tir :  Arbalète
+
+Poids : 0~
 
 @31 = ~Bille de Force +2~
 @32 = ~Projectiles très appréciés des prêtres, les billes de force permettent d'immobiliser la cible sans lui faire de mal. Elles sont particulièrement utilisées par les clergés d'Eldath, Heaum et Ilmater.
@@ -182,6 +197,7 @@ Type de dégâts : projectile (contondant)
 Arme à distance : fronde
 
 Poids : 0~
+
 @41 = ~Fléchette barbelée~
 @42 = ~Cette fléchette dispose de nombreuses dentelures acérées destinées à aggraver les blessures.
 
@@ -258,3 +274,4 @@ Type de compétence : hache
 Type : arme à une main
 
 Poids : 3~
+

@@ -67,11 +67,24 @@ Launcher: Bow
 
 Weight: 0~
 @110 = ~Devastating Arrow~
-@111 = ~Thesearrow are the work of a twisted mechanical genius. Just beneath the head of each arrow is a small catch, that when pressed, unlocks the head of the bolt, allowing it to divide. From what you can tell, once the bolts are unlocked, the pyramid-shaped heads are carefully fashioned so that each one splits into three on impact. Each triangle-shaped fragment then tears a different route through the target's body, wreaking havoc on his internal organs.
+@111 = ~These arrows were invented by a particularly devious mechanical genius. Underneath the tip is a small mechanism that allows it to split, each tip giving rise to three triangular projectiles on impact. Each triangle-shaped fragment then tears a different route through the target's body, wreaking havoc on his internal organs.
 
 STATISTICS:
 
 Damage: 1d6, +3D4 slashing damage (missile)
+Launcher: Bow
+
+Weight: 0~
+@112 = ~Arrow of Slaying~
+@113 = ~This arrow is twisted and black, almost radiating evil as if possessed by something larger than itself. It was made specifically to kill one type of creature and one type only. In this case, the unlucky being is the umber hulk.
+
+STATISTICS:
+
+Combat abilities:
+- Slay umber Hulk upon touch
+
+THAC0: +3
+Damage: 1d6+3 (missile)
 Launcher: Bow
 
 Weight: 0~
@@ -133,8 +146,7 @@ Launcher: Crossbow
 
 Weight: 0~
 @211 = ~Stunning bolt +1~
-@212 = ~These enchanted bolts have been fashioned from one of the great cubes of Acheron. According to many planar scholars, Acheron is a plane in perpetual war with itself, where huge cubes the size of continents float through the ether and smash against each other. On the surface of these cubes, legions of soldiers wage war on each other, swarming from cube to cube and attacking whoever else they can find. The plane is filled with the ringing of steel and the great thundering impacts of the cubes striking each other. 
-These bolts carry a portion of Acheron's heart within them. When these bolts strike an opponent, they do so with so much force that the impact has the potential to stun an opponent and leave him helpless for a period of time.
+@212 = ~These bolts carry a portion of Acheron's heart within them. When these bolts strike an opponent, they do so with so much force that the impact has the potential to stun an opponent and leave him helpless for a period of time.
 
 STATISTICS:
 
@@ -143,8 +155,9 @@ Combat abilities:
 
 THAC0: +1
 Damage: 1d8+1 (missile)
-Launcher: Crossbow~
+Launcher: Crossbow
 
+Weight: 0~
 @213 = ~Bolt of madness +1~
 @214 = ~These bolts have somehow captured the deadly harmonic of Pandemonium and then added insult to injury by imprisoning an enraged air elemental inside the head of the bolt. When one of these bolts strike an opponent, the head shatters, and the air elemental is released. The elemental will whip around the opponent in a frenzy, making one strike before it vanishes.
 
@@ -156,7 +169,19 @@ Combat abilities:
 
 THAC0: +1
 Damage: 1d8+1 (missile)
-Launcher: Crossbow~
+Launcher: Crossbow
+
+Weight: 0~
+@215 = ~Blessed Bolt +3~
+@216 = ~This is a crossbow bolt that has been permanently enchanted with the spell Bless. The enchantment will remain until it is fired out of a crossbow, at which time the magic will fade. It has been fabled that if a rakshasa is struck with this bolt, it will die instantly.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d8+3 (missile)
+Launcher: Crossbow
+
+Weight: 0~
 
 @31 = ~Force Bullet +2~
 @32 = ~A popular weapon among priests, Force Bullets allow the user to restrain opponents without causing excessive harm. They are particularly well liked by the churches of Helm, Eldath and Ilmater.
