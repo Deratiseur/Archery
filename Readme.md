@@ -7,7 +7,8 @@
 
 **Autor** : **Deratiseur**
 
-[Link to original Mod Forum](https://www.baldursgateworld.fr/viewtopic.php?t=33754)
+[Lien vers le forum en français du mod](https://www.baldursgateworld.fr/viewtopic.php?t=33754)
+[Link to the beamdog forum](https://forums.beamdog.com/discussion/88029/mod-the-shooters-delight)
 
 
 ## Description:
