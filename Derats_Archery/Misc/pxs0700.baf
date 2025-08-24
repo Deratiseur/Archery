@@ -1,8 +1,0 @@
-IF
-	Global("pxsarchery","GLOBAL",0)
-	AreaCheck("AR0700")
-THEN
-	RESPONSE #100
-		SetGlobal("pxsarchery","GLOBAL",1)
-		CreateCreature("pxsbifur",[3236.520],0)
-END
