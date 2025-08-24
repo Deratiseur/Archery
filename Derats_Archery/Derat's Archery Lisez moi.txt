@@ -1,0 +1,42 @@
+Au bonheur du tireur v5
+
+C'est un marin sur la promenade de Waukyne qui vend tout ce qu'il faut pour les tireurs/lanceurs de tout poils.
+
+Upadte v2 : correction de la ceinture de munition buguée et des projectiles venus de IWD
+
+Update v3 : quantité augmentée des projectiles vendus.
+
+Update v4 : Les carreaux élémentaires n’étaient pas +1 comme décrit. Le carreau de silence était utilisable par tout le monde.
+			Ajout de trois projectiles
+			Ajout de la traduction anglaise.
+			
+Update v5 : Il manquait les dlls dans le dossier iconv de l'archive sur mediafire.
+			Les flèches ravageuses n'avaient pas d’icône dans le magasin.
+			Ajout des arcs courts composites disponibles dans Rogues Rebalancing. 
+			Ajout des frondes normales qui manquaient.
+			Ajout de l'arc court +3 qui manquait.
+
+Update v6 :
+			Les carreaux bénis ne pouvaient pas toucher les rakshasas (enchantement +1). Ceux vendus par Biffur deviennent +3 et valent plus cher.
+			La traduction anglaise n'incluait pas les lignes pour utiliser la fonction de FreddyGwendo.
+			La flèche ravageuse avait presque tout d'un carreau, y compris l’utilisation dans une arbalète.
+			Correction du texte de la Flèches ravageuse.
+			Simplification du texte des Carreau étourdissant +1
+			Ajout du texte "Poid 0" qui manquait dans la description de certains carreaux.
+			La Flèche de téléportation avait la même icône que la Flèche explosive.
+			Réécriture de la Flèche tueuse (il n'y a pas d'Ogres mages dans BG2). Elle devient +3 selon les règles p&p.
+			Correction du prix de la Fléchette éternelle.
+			Réduction du prix des Fléchettes Merveilleuse de Zilzander.
+			Ajout des fléchettes Nid d'Aspic et flèches +3 qui manquaient.
+			Ajout de quelques projectiles +2/+3/+4 dans BG2EE (tirée des Fosses noires II).
+
+Update v7 :
+			La flèche de téléportation avait une icône buguée dans oBG2.
+			La hache de jet +2 (de retour) était en 4 exemplaires.
+			Corrections des icônes des projectile qui étaient décalées dans BG2EE (pas oBG2)
+			Ajouts de quelques armes et projectiles venants de IWD 2.
+			Ajout de l'Amulette de maître archer.
+			Ajout de 3 étuis d'abondance
+			Révision du prix des projectiles : mon magasin les vendaient plus cher que Bernard.
+			Ajout d'un composant optionnel pour ceux qui trouve qu'il n'y a pas assez de stock dans mon magasin.
+			
